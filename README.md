@@ -26,8 +26,8 @@ A sensor data and prediction system designed to interpret dam-related sensor rea
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/the-alkennist/AquaGuard-AI
+   cd AquaGuard-AI
    ```
 
 2. Install dependencies for both frontend and backend:
@@ -61,12 +61,7 @@ A sensor data and prediction system designed to interpret dam-related sensor rea
 
 ### Frontend (Next.js)
 
-1. Configure environment variables in `frontend/.env.local`:
-   ```env
-   NEXT_PUBLIC_BACKEND_URL=<backend-url>
-   ```
-
-2. Start the Next.js frontend:
+1. Start the Next.js frontend:
    ```bash
    cd nextjs-gemini
    npm run dev
